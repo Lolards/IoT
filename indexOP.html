@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Monkey D. Luffy - Gear Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Transformaciones de Luffy</h1>
+
+  <div class="contenedor-personaje">
+    <img id="personaje" src="Luffy.gif" alt="Luffy base">
+  </div>
+ 
+  <div class="botones">
+    <button onclick="cambiarGear('gear2')"><img src="Carne.png" alt="Gear Second"></button>
+    <button onclick="cambiarGear('gear3')"><img src="2Carnes.png" alt="Gear Third"></button>
+    <button onclick="cambiarGear('gear4')"><img src="3Carnes.png" alt="Gear Fourth"></button>
+    <button onclick="cambiarGear('gear5')"><img src="4Carnes.png" alt="Gear Fifth"></button>
+  </div>
+
+  <div id="nubes"></div>
+
+  <video id="videoFondo" autoplay muted loop>
+    <source src="5Zl5.mp4" type="video/mp4">
+  </video>
+
+  <script src="script.js"></script>
+</body>
+</html>
